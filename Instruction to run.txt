@@ -1,0 +1,5 @@
+To run:
+1. Create "data" folder in the same directory as vocparseclslabels.py
+2. Add the VOCdevkit dataset in the "data" folder
+3. To run on cpu, change "device=torch.device("cuda")" to device=torch.device("cpu")
+4. Run vocparseclslabels.py
